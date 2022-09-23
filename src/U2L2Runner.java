@@ -7,9 +7,9 @@ public class U2L2Runner {
         rect2.setWidth(125);
         rect2.setLength(125);
         rect3.setWidth(125);
-        int rect1Perimeter = (rect1.getWidth() * 2) + (rect1.getLength() * 2);
-        int rect2Perimeter = (rect2.getWidth() * 2) + (rect2.getLength() * 2);
-        int rect3Perimeter = (rect3.getWidth() * 2) + (rect3.getLength() * 2);
+        int rect1Perimeter = rect1.calculatePerimeter();
+        int rect2Perimeter = rect2.calculatePerimeter();
+        int rect3Perimeter = rect3.calculatePerimeter();
         int totalPerimeter = rect1Perimeter + rect2Perimeter + rect3Perimeter ;
         int rect1Area = rect1.calculateArea();
         int rect2Area = rect2.calculateArea();
